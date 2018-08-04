@@ -1,0 +1,13 @@
+org/sample/Bar.class
+org/sample/remotelocal/CoffeeFacade.class
+org/sample/remotelocal/CoffeeBean.class
+org/sample/remotelocal/Coffee$Remote.class
+org/sample/remotelocal/Coffee.class
+org/sample/FooBean.class
+org/sample/Foo.class
+org/sample/BazBean.class
+org/sample/remotelocal/CoffeeFacade$Remote.class
+org/sample/BarBean.class
+org/sample/remotelocal/CoffeeFacadeBean.class
+org/sample/remotelocal/CoffeeMain.class
+org/sample/Baz.class

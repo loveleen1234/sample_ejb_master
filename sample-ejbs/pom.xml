@@ -1,0 +1,59 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+    <parent>
+        <groupId>com.sample</groupId>
+        <artifactId>sample-parent</artifactId>
+        <version>0.0.1-SNAPSHOT</version>
+    </parent>
+ <groupId>org.sample</groupId>   
+ <artifactId>sample-ejbs</artifactId>
+    <packaging>ejb</packaging>
+	
+		<distributionManagement>
+<!--    <repository>
+        <id>central</id>
+        <name>ip-172-31-1-60.us-west-1.compute.internal-releases</name>
+        <url>http://54.153.63.234:8081/artifactory/libs-release-local</url>
+    </repository> -->
+</distributionManagement>
+    <build>
+        <plugins>
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-ejb-plugin</artifactId>
+            </plugin>
+        </plugins>
+    </build>
+
+    <dependencies>
+        <dependency>
+            <groupId>javax.servlet</groupId>
+            <artifactId>servlet-api</artifactId>
+            <scope>provided</scope>
+        </dependency>
+		
+
+
+        <dependency>
+            <groupId>org.glassfish.main.ejb</groupId>
+            <artifactId>javax.ejb</artifactId>
+            <scope>provided</scope>
+        </dependency>
+	
+
+<dependency>
+    <groupId>org.glassfish.main.appclient</groupId>
+    <artifactId>gf-client</artifactId>
+    <version>4.1</version>
+</dependency>
+<dependency>
+    <groupId>asm</groupId>
+    <artifactId>asm-all</artifactId>
+    <version>3.3</version>
+    <type>pom</type>
+</dependency>
+
+
+ </dependencies>
+</project>

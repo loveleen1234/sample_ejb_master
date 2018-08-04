@@ -1,0 +1,11 @@
+/usr/local/java/repo/sample-ejb-app/sample-ejbs/src/main/java/org/sample/BarBean.java
+/usr/local/java/repo/sample-ejb-app/sample-ejbs/src/main/java/org/sample/FooBean.java
+/usr/local/java/repo/sample-ejb-app/sample-ejbs/src/main/java/org/sample/remotelocal/Coffee.java
+/usr/local/java/repo/sample-ejb-app/sample-ejbs/src/main/java/org/sample/remotelocal/CoffeeBean.java
+/usr/local/java/repo/sample-ejb-app/sample-ejbs/src/main/java/org/sample/Foo.java
+/usr/local/java/repo/sample-ejb-app/sample-ejbs/src/main/java/org/sample/remotelocal/CoffeeFacadeBean.java
+/usr/local/java/repo/sample-ejb-app/sample-ejbs/src/main/java/org/sample/remotelocal/CoffeeMain.java
+/usr/local/java/repo/sample-ejb-app/sample-ejbs/src/main/java/org/sample/Bar.java
+/usr/local/java/repo/sample-ejb-app/sample-ejbs/src/main/java/org/sample/Baz.java
+/usr/local/java/repo/sample-ejb-app/sample-ejbs/src/main/java/org/sample/remotelocal/CoffeeFacade.java
+/usr/local/java/repo/sample-ejb-app/sample-ejbs/src/main/java/org/sample/BazBean.java
